@@ -1,6 +1,16 @@
 package week01;
 
+
+import java.util.Scanner;
+
 public class OddOrEven {
+    public static String identify(int k){
+        boolean isOdd= k%2 !=0;
+        return (isOdd)? "Odd": "Even";
+    }
+
+
+
 
     /*
 
@@ -16,6 +26,8 @@ public class OddOrEven {
 
 
     public static void main(String[] args) {
+        System.out.println( OddOrEven.identify(6));
+
 
 
     }

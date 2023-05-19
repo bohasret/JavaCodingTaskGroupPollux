@@ -1,6 +1,19 @@
 package week01;
 
+import java.util.Scanner;
+
 public class FINRA {
+  public static void num(int n){
+      if(n%15==0){
+          System.out.println("FINRA");
+      }else if(n%5==0){
+          System.out.println("RA");
+      }else if(n%3==0){
+          System.out.println("FIN");
+      }else {
+          System.out.println(n);
+      }
+  }
 
 
     /*
@@ -10,6 +23,10 @@ public class FINRA {
      */
 
     public static void main(String[] args) {
+        Scanner n= new Scanner(System.in);
+        System.out.println("Enter a number from 1 to 30");
+        FINRA.num(25);
+
 
     }
 }
