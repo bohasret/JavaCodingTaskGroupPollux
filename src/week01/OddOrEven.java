@@ -17,7 +17,7 @@ public class OddOrEven {
 
     public static void main(String[] args) {
 
-
+        identify(3);
 
 
 
