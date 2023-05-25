@@ -12,8 +12,19 @@ public class DivideWithoutOperator {
 
     public static void main(String[] args) {
 
+        DivideWithoutOperator(80, 4);
 
     }
 
+    public static void DivideWithoutOperator(double num1, double num2) {
+            int count = 0;
+            while (num1 >= num2) {
+                num1 -= num2;
+                count++;
+            }
+
+            System.out.println("num1 / num2 = " + count);
+
+    }
 }
 
