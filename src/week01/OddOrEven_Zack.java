@@ -1,6 +1,6 @@
 package week01;
 
-public class OddOrEven {
+public class OddOrEven_Zack {
     /*
      Numbers-  Odd or even:
      Write  a method which can identify given number is even or odd
