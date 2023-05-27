@@ -1,6 +1,6 @@
 package week01;
 
-public class DivideWithoutOperator {
+public class DivideWithoutOperator{
 
     /*
 
