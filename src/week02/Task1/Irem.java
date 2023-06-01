@@ -1,11 +1,12 @@
-package week02;
+package week02.Task1;
 
-public class SwapNumbers {
+public class Irem {
     public static void main(String[] args) {
 
         int a = 100;
         int b = 200;
 
+        // Before swapping
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
@@ -13,6 +14,7 @@ public class SwapNumbers {
         b = a - b;
         a = a - b;
 
+        // After swapping
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 

@@ -1,7 +1,7 @@
-package week02;
+package week02.Task2;
 
 
-public class DivisibleBy {
+public class Irem {
     public static void main(String[] args) {
 
 

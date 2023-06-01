@@ -1,6 +1,6 @@
-package week02;
+package week02.Task3;
 
-public class ConsecutiveNumbers {
+public class Irem {
     public static void main(String[] args) {
 
         int n = 17;
