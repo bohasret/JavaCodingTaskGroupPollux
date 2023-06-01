@@ -9,6 +9,7 @@ public class Zack {
 
         // Solution 1:============================
         int  a = 10;      int  b  = 20;
+
         a = a + b;
         b = a - b;
         a = a - b;
