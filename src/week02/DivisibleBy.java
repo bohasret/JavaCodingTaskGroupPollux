@@ -1,6 +1,5 @@
 package week02;
 
-import java.io.FilterOutputStream;
 
 public class DivisibleBy {
     public static void main(String[] args) {
