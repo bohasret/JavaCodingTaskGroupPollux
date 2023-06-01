@@ -1,6 +1,6 @@
-package week02;
+package week02.task1;
 
-public class SwapNumbers {
+public class SwapNumbers_nur {
 
     public static void main(String[] args) {
         int x= 30;

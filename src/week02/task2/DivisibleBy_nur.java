@@ -1,8 +1,6 @@
-package week02;
+package week02.task2;
 
-import java.util.Scanner;
-
-public class DivisibleBy {
+public class DivisibleBy_nur {
     public static void main(String[] args) {
 
         String n15= "Divisible by 15 ";

@@ -1,8 +1,6 @@
-package week02;
+package week02.task3;
 
-import java.util.Scanner;
-
-public class ConsecutiveNumbers {
+public class ConsecutiveNumbers_nur {
     public static void main(String[] args) {
         int n= 31;
         String result="";
