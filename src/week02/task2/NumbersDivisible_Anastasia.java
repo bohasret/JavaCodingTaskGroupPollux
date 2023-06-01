@@ -1,6 +1,6 @@
-package week02;
+package week02.task2;
 
-public class NumbersDivisible {
+public class NumbersDivisible_Anastasia {
     public static void main(String[] args) {
 
         String by15 ="";

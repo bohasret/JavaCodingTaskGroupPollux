@@ -1,8 +1,8 @@
-package week02;
+package week02.task3;
 
-public class ConsecutiveNumbers {
+public class ConsecutiveNumbers_Anastasia {
     public static void main(String[] args) {
-int n = 10;
+int n = 30;
 String divBy235 = "CodingTestCoders";
 String divBy23 = "CodilityTest";
 String divBy2 = "Codility";
