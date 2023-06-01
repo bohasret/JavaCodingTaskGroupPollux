@@ -23,8 +23,8 @@ public class OddOrEven{
             return odd;
         }
 
-        identify(5);
-        identify(34);
+        //identify(5);
+        //identify(34);
 
 
     }
