@@ -4,8 +4,6 @@ import java.io.Serializable;
 
 public class FINRA {
 
-public class FINRA{
-
 
 
     /*
@@ -14,46 +12,42 @@ public class FINRA{
      For numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number.
      */
 
-    public static void main(String[] args) {
-        int num = 15;
-        if (num % 3 == 0 && num % 5 == 0) {
-            System.out.println("FINRA");
-        } else if (num % 3 == 0) {
-            System.out.println("FIN");
-        } else if (num % 5 == 0) {
-            System.out.println("RA");
-        } else {
-            System.out.println(num);
-        }
-
-
-        for (int i = 1; i <= 30; i++) {
-
-            if(i % 3 == 0 && i % 5 ==0){
+        public static void main(String[] args) {
+            int num = 15;
+            if (num % 3 == 0 && num % 5 == 0) {
                 System.out.println("FINRA");
-            }else if(i % 3 ==0){
+            } else if (num % 3 == 0) {
                 System.out.println("FIN");
-            }else if(i % 5 ==0){
+            } else if (num % 5 == 0) {
                 System.out.println("RA");
-            }else{
-                System.out.println(i);
+            } else {
+                System.out.println(num);
             }
 
+
+            for (int i = 1; i <= 30; i++) {
+
+                if (i % 3 == 0 && i % 5 == 0) {
+                    System.out.println("FINRA");
+                } else if (i % 3 == 0) {
+                    System.out.println("FIN");
+                } else if (i % 5 == 0) {
+                    System.out.println("RA");
+                } else {
+                    System.out.println(i);
+                }
+
+            }
+
+            System.out.println();
+
+
+            for (int i = 1; i < 31; i++) {
+                String result = (i % 3 == 0 && i % 5 == 0) ? "FINRA" : (i % 3 == 0) ? "FIN" : (i % 5 == 0) ? "RA" : "" + i;
+                System.out.println(result);
+            }
+
+
         }
 
-        System.out.println();
-
-
-        for (int i = 1; i < 31; i++) {
-            String result = (i % 3 == 0 && i % 5 == 0) ? "FINRA" : (i % 3 == 0) ? "FIN" : (i % 5 == 0) ? "RA" : "" + i;
-            System.out.println(result);
-        }
-
-
-
-
-
-
-
-=======
-        System.out.println(num);
+}
