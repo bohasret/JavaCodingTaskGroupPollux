@@ -4,6 +4,9 @@ import java.io.Serializable;
 
 public class FINRA {
 
+public class FINRA{
+
+
 
     /*
      Write a function which prints out the numbers from 1 to 30 but for numbers which are a multiple of 3,
@@ -12,6 +15,17 @@ public class FINRA {
      */
 
     public static void main(String[] args) {
+        int num = 15;
+        if (num % 3 == 0 && num % 5 == 0) {
+            System.out.println("FINRA");
+        } else if (num % 3 == 0) {
+            System.out.println("FIN");
+        } else if (num % 5 == 0) {
+            System.out.println("RA");
+        } else {
+            System.out.println(num);
+        }
+
 
         for (int i = 1; i <= 30; i++) {
 
@@ -41,5 +55,5 @@ public class FINRA {
 
 
 
-    }
-}
+=======
+        System.out.println(num);

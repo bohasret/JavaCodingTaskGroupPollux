@@ -1,6 +1,6 @@
 package week01;
 
-public class OddOrEven {
+public class OddOrEven{
 
     /*
 
@@ -14,8 +14,17 @@ public class OddOrEven {
 
      */
 
+    public static String oddEven(int num) {
+        String odd = "Odd";
+        String even = "Even";
+        if (num %2 == 0) {
+            return even;
+        } else {
+            return odd;
+        }
 
-    public static void main(String[] args) {
+        //identify(5);
+        //identify(34);
 
 
         OddEven(15);
@@ -48,7 +57,20 @@ public class OddOrEven {
         return (number % 2 == 0) ? "even" : "odd";
     }
 
+    public static void identify(int number){
 
+        if(number % 2 == 0){
+            System.out.println("Even");
+        }else{
+            System.out.println("Odd");
+        }
+
+
+
+    }
+
+    public static void main(String[] args) {
+        System.out.println(oddEven(7));
+    }
 }
-
 
