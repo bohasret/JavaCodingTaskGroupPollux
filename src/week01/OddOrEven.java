@@ -27,6 +27,34 @@ public class OddOrEven{
         //identify(34);
 
 
+        OddEven(15);
+        OddEven(20);
+        OddEven(34);
+
+        System.out.println(oddEven(27));
+        oddEven(102);
+
+
+
+    }
+
+
+
+
+    public static void OddEven(int num) {
+
+
+        if (num % 2 == 0) {
+            System.out.println("even");
+        } else {
+            System.out.println("odd");
+        }
+
+    }
+
+    public static String oddEven ( int number){
+
+        return (number % 2 == 0) ? "even" : "odd";
     }
 
     public static void identify(int number){
