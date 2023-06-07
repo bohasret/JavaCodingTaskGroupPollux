@@ -18,6 +18,7 @@ public class Zack {
      */
     public static int reverseNum(int num) {
 
+        // convert it to String object in order to use reverse() from StringBuilder class
         // -35 => 53-
         String str = new StringBuilder(""+num).reverse().toString();
 
