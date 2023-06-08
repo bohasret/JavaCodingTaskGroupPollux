@@ -1,6 +1,11 @@
 package week01;
 
+import java.io.Serializable;
+
 public class FINRA {
+
+public class FINRA{
+
 
 
     /*
@@ -10,42 +15,45 @@ public class FINRA {
      */
 
     public static void main(String[] args) {
+        int num = 15;
+        if (num % 3 == 0 && num % 5 == 0) {
+            System.out.println("FINRA");
+        } else if (num % 3 == 0) {
+            System.out.println("FIN");
+        } else if (num % 5 == 0) {
+            System.out.println("RA");
+        } else {
+            System.out.println(num);
+        }
 
-        //System.out.println(finra());
-    }
-
-
-    public static String finra(){
-
-        String result = "";
 
         for (int i = 1; i <= 30; i++) {
 
-            if (i % 15 == 0) {
-                result += "FINRA ";
-
-            } else if (i % 5 == 0) {
-                result += "RA ";
-
-            } else if(i % 3 == 0){
-                result += "FIN ";
-
-            } else{
-                result += i +" ";
+            if(i % 3 == 0 && i % 5 ==0){
+                System.out.println("FINRA");
+            }else if(i % 3 ==0){
+                System.out.println("FIN");
+            }else if(i % 5 ==0){
+                System.out.println("RA");
+            }else{
+                System.out.println(i);
             }
 
         }
-       return result;
+
+        System.out.println();
+
+
+        for (int i = 1; i < 31; i++) {
+            String result = (i % 3 == 0 && i % 5 == 0) ? "FINRA" : (i % 3 == 0) ? "FIN" : (i % 5 == 0) ? "RA" : "" + i;
+            System.out.println(result);
+        }
 
 
 
-}
 
 
 
 
-
-}
-
-
-
+=======
+        System.out.println(num);
