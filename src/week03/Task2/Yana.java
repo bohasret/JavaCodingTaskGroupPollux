@@ -4,16 +4,21 @@ import java.util.Collections;
 
 public class Yana {
 
-    //Reverse Negative Number
+    /**
+     2. Reverse a number
+     */
 
     public static void main(String[] args) {
         reverse(-345);
         reverse2(-2231);
     }
 
+    /**
+     * reverse a number
+     * @param num
+     * @return
+     */
 
-
-    //with string
     public static void reverse(int num){
         num = Math.abs(num);
 

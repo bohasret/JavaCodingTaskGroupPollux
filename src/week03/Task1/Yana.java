@@ -2,13 +2,21 @@ package week03.Task1;
 
 public class Yana {
 
-    //Write a method that can check if a number is prime or not
+    /**
+     1. Numbers -- PrimeNumber
+     Write a method that can check if a number is prime or not
+     */
+
     public static void main(String[] args) {
         System.out.println(isPrime(3));
         System.out.println(isPrime(17));
     }
 
-
+    /**
+     * checking number is prime or not
+     * @param num
+     * @return
+     */
 
     public static boolean isPrime(int num){
 

@@ -40,11 +40,6 @@ public class DivideWithoutOperator{
 
         return (intCount+decimalCount)*sign;
 
-        System.out.println(DivideTwoNumbers(10,2));
-        System.out.println(DivideTwoNumbers(0,3));
-        // DivideTwoNumbers(5,0);
-        System.out.println(DivideTwoNumbers(20,3));
-        System.out.println(DivideTwoNumbers(18,7));
     }
 
     public static int DivideTwoNumbers(int n1, int n2){
