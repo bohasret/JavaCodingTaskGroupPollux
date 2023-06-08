@@ -1,6 +1,4 @@
-package week3.task2;
-
-import java.util.Arrays;
+package week03.task2;
 
 public class hasret {
     public static void main(String[] args) {
