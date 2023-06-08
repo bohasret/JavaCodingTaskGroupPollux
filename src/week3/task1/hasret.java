@@ -17,6 +17,11 @@ public class hasret {
 
     }
 
+    /**
+     * checking number is prime or not
+     * @param number
+     * @return
+     */
     public static boolean isPrime(int number) { // prime number means it can divide only itself and 1, also there should not be any left over
 
         for (int i = 2; i < number; i++) { // if number can divide any number evenly , it is not prime number
