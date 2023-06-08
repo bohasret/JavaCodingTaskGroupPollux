@@ -1,6 +1,11 @@
 package week01;
 
+import java.io.Serializable;
+
+public class FINRA {
+
 public class FINRA{
+
 
 
     /*
@@ -21,6 +26,34 @@ public class FINRA{
             System.out.println(num);
         }
 
+
+        for (int i = 1; i <= 30; i++) {
+
+            if(i % 3 == 0 && i % 5 ==0){
+                System.out.println("FINRA");
+            }else if(i % 3 ==0){
+                System.out.println("FIN");
+            }else if(i % 5 ==0){
+                System.out.println("RA");
+            }else{
+                System.out.println(i);
+            }
+
+        }
+
+        System.out.println();
+
+
+        for (int i = 1; i < 31; i++) {
+            String result = (i % 3 == 0 && i % 5 == 0) ? "FINRA" : (i % 3 == 0) ? "FIN" : (i % 5 == 0) ? "RA" : "" + i;
+            System.out.println(result);
+        }
+
+
+
+
+
+
+
+=======
         System.out.println(num);
-    }
-}

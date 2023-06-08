@@ -1,7 +1,9 @@
 package week02.task3;
 
-public class Zack {
-    /*
+import java.util.Scanner;
+
+public class hasret {
+     /*
     ===== Numbers -- print consecutive numbers ===============
     Write a function that, given a positive integer N, prints the consecutive
     numbers from 1 to N, each on a separate line. However, any number divisible
@@ -31,33 +33,54 @@ public class Zack {
     Codility
     17
      */
+
     public static void main(String[] args) {
-        solution(25);
-    }
 
 
-    public static void solution(int N) {
+
+
+
+        int n = 30;
         String result = "";
-        for (int i = 1; i <= N; i++) {
-            if(i %2 ==0 && i%3 == 0 && i %5==0)
-                result += "CodilityTestCoders\n";
-            else if(i %2 ==0 && i%3 == 0)
-                result += "CodilityTest\n";
-            else if(i % 2==0 && i %5==0)
-                result += "CodilityCoders\n";
-            else if(i % 3 == 0 && i % 5 ==0)
-                result +="TestCoders\n";
-            else if(i % 2 ==0)
-                result += "Codility\n";
-            else if (i % 5 == 0)
-                result += "Coders\n";
-            else if (i % 3 == 0)
-                result += "Test\n";
-            else
-                result += i + "\n";
+
+
+        for (int i = 1; i < n + 1; i++) {
+
+            if (i % 2 == 0 && i % 3 == 0 && i % 5 == 0) {
+                result += "CodilityTestCoders";
+            }else if (i % 2 == 0 && i % 3 == 0) {
+                result += "CodilityTest";
+            }else if (i % 3 == 0 && i % 5 == 0) {
+                result += "TestCoders";
+            }else if (i % 5 == 0 && i % 2 == 0) {
+                result += "CodilityCoders";
+            }else if (i % 2 == 0) {
+                result += "Codility";
+            } else if (i % 3 == 0) {
+                result += "Test";
+            } else if (i % 5 == 0) {
+                result += "Coders";
+            } else {
+                result += i + " ";
+            }
+
+            result += "\n";
         }
 
-        System.out.println(result);
-    }
 
+        System.out.println(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
 }
