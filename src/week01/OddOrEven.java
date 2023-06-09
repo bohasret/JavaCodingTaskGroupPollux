@@ -3,15 +3,11 @@ package week01;
 public class OddOrEven{
 
     /*
-
-
      Numbers-  Odd or even:
      Write  a method which can identify given number is even or odd
      Output ex:
      identify(5); ->"Odd"
      identify(6); ->"Even"
-
-
      */
 
     public static String oddEven(int num) {
@@ -26,13 +22,6 @@ public class OddOrEven{
         //identify(5);
         //identify(34);
 
-
-        OddEven(15);
-        OddEven(20);
-        OddEven(34);
-
-        System.out.println(oddEven(27));
-        oddEven(102);
 
 
 
@@ -52,10 +41,6 @@ public class OddOrEven{
 
     }
 
-    public static String oddEven ( int number){
-
-        return (number % 2 == 0) ? "even" : "odd";
-    }
 
     public static void identify(int number){
 
