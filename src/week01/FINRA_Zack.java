@@ -10,9 +10,9 @@ public class FINRA_Zack {
      */
 
     public static void main(String[] args) {
-            finra_1();
-            finra_2();
-            finra_3();
+        finra_1();
+        finra_2();
+        finra_3();
     }
 
     //******** SOLUTION 1 *********************
@@ -68,5 +68,4 @@ public class FINRA_Zack {
 
         System.out.println(Arrays.toString(myarr));
     }
-
 }
