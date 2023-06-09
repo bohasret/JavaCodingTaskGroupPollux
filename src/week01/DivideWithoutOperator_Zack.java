@@ -32,4 +32,3 @@ public class DivideWithoutOperator_Zack {
     }
 
 }
-
