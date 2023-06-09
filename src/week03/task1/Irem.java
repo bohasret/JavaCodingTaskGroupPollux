@@ -1,4 +1,4 @@
-package week03;
+package week03.task1;
 
 public class Irem {
     public static void main(String[] args) {
@@ -36,3 +36,4 @@ public class Irem {
 1️⃣ Numbers -- PrimeNumber
 Write a method that can check if a number is prime or not
  */
+
