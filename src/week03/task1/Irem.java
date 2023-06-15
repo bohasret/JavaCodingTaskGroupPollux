@@ -1,4 +1,4 @@
-package week03.task1;
+package week03;
 
 public class Irem {
     public static void main(String[] args) {
@@ -11,10 +11,12 @@ public class Irem {
 
 
 
+
     /**
      * check if a number is prime or not
      * PrimeNumber cannot be exactly divided by any whole number other than itself and 1.
      */
+
 
     public static boolean isPrimeNumber(int num){
 
@@ -36,4 +38,3 @@ public class Irem {
 1️⃣ Numbers -- PrimeNumber
 Write a method that can check if a number is prime or not
  */
-
