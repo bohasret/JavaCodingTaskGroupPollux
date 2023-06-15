@@ -39,11 +39,7 @@ Write a return method that checks if a string is built out of the same letters a
         Collections.sort(first);
         Collections.sort(second);
 
-        if (first.equals(second)) {
-            return true;
-        } else {
-            return false;
-        }
+        return first.equals(second);
 
 
     }
