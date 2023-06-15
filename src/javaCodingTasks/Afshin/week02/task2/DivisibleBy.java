@@ -1,4 +1,4 @@
-package weekTwo;
+package javaCodingTasks.Afshin.week02.task2;
 
 public class DivisibleBy {
 }

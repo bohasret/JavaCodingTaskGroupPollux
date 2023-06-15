@@ -1,4 +1,4 @@
-package week01;
+package javaCodingTasks.Afshin.week01.task1;
 
 public class OddOrEven {
 

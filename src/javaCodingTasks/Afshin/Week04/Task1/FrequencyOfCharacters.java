@@ -1,6 +1,4 @@
-package javaCodingTasks.Week04.Task1;
-
-import java.lang.reflect.Array;
+package javaCodingTasks.Afshin.Week04.Task1;
 
 public class FrequencyOfCharacters {
     public static void main(String[] args) {

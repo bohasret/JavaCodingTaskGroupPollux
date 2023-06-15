@@ -1,4 +1,4 @@
-package week01;
+package javaCodingTasks.Afshin.week01.task2;
 
 public class DivideWithoutOperator{
 

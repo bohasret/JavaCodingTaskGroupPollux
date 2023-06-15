@@ -1,4 +1,4 @@
-package javaCodingTasks.Week04.Task2;
+package javaCodingTasks.Afshin.Week04.Task2;
 
 import java.util.*;
 
