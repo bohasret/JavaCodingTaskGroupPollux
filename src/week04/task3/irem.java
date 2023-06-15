@@ -12,8 +12,8 @@ public class irem {
 
     /**
      * Write a return method that can remove the duplicated values from the String
-     * param
-     * return
+     * param str
+     * return String
      */
 
     public static String removeDuplicates(String str){
@@ -37,8 +37,4 @@ public class irem {
 
 
 }
-/*
-3️⃣  String - Remove Duplicates
-Write a return method that can remove the duplicated values from the String
-  Ex: removeDup("AAABBBCCC") ==> ABC
- */
+
