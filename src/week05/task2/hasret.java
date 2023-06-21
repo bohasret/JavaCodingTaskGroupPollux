@@ -1,7 +1,7 @@
 package week05.task2;
 
 public class hasret {
-    /*
+     /*
     String -- Reverse
 Write a function that can reverse a String
  Ex: Reverse("ABCD"); ==> DCBA
