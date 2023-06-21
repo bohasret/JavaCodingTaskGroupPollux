@@ -17,7 +17,7 @@ public class Zack {
     // ============= SOLUTION 1 =============================
     /**
      * returns unique characters from the given String
-     * @param str -> String
+     * @param str String
      * @return String
      */
     public static String unique_1(String str) {
@@ -38,7 +38,7 @@ public class Zack {
     // ============= SOLUTION 2 =============================
     /**
      * returns unique characters from the given String
-     * @param str -> String
+     * @param str String
      * @return String
      */
     public static String unique_2(String str) {
