@@ -35,10 +35,12 @@ public class DivideWithoutOperator{
             while (nominator>=denominator){ // loop will run as long as nominator *10 is more than denominator
                 nominator-=denominator; // every time loop runs it will subtract
                 decimalCount+=0.1;
+
             }
         }
 
         return (intCount+decimalCount)*sign;
+
 
     }
 
@@ -68,6 +70,8 @@ public class DivideWithoutOperator{
         System.out.println(divisionWithoutOperator(6, 2));
         System.out.println(divisionWithoutOperator(1, -2));
         System.out.println(divisionWithoutOperator(8, 3));
+        System.out.println(divisionWithoutOperator(1,134));
+
     }
     }
 
