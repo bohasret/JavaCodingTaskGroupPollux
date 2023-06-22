@@ -51,6 +51,12 @@ public class DivideWithoutOperator {
             return (intCount+decimalCount)*sign;
         }
 
+
+        return (intCount+decimalCount)*sign;
+
+
+    }
+
         public static int DivideTwoNumbers(int n1, int n2){
 
             if( n2==0){
