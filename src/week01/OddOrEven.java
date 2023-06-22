@@ -1,6 +1,6 @@
 package week01;
 
-public class OddOrEven{
+public class OddOrEven {
 
     /*
      Numbers-  Odd or even:
@@ -58,4 +58,3 @@ public class OddOrEven{
         System.out.println(oddEven(7));
     }
 }
-

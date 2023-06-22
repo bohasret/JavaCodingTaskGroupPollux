@@ -1,7 +1,5 @@
 package week01;
 
-import java.io.Serializable;
-
 public class FINRA {
     /*
      Write a function which prints out the numbers from 1 to 30 but for numbers which are a multiple of 3,
