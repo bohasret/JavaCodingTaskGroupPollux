@@ -1,4 +1,4 @@
-package week5.task1;
+package week05.task1;
 
 public class irem {
 

@@ -1,4 +1,4 @@
-package week5.task2;
+package week05.task2;
 
 public class irem {
     public static void main(String[] args) {
