@@ -1,7 +1,7 @@
 package week01;
 
 public class OddOrEven_Zack {
-    /*
+     /*
      Numbers - Odd or even:
      Write  a method which can identify given number is even or odd
      Output ex:
@@ -22,6 +22,5 @@ public class OddOrEven_Zack {
     public  static  String  identifyOddEven(int number) {
         return  number%2==0 ? "Even" : "odd" ;
     }
-
 
 }
