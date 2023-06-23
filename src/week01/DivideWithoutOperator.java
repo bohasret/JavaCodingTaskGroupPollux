@@ -38,16 +38,6 @@ public class DivideWithoutOperator {
                     decimalCount+=0.1;
                 }
 
-        double decimalCount = 0;
-        if (nominator < denominator&&nominator!=0) { // nominator is less than denominator
-            nominator = nominator * 10; // simple math manipulation to operate decimal numbers, thats why we had to *10
-            while (nominator>=denominator){ // loop will run as long as nominator *10 is more than denominator
-                nominator-=denominator; // every time loop runs it will subtract
-                decimalCount+=0.1;
-
-
-            }
-
             return (intCount+decimalCount)*sign;
         }
 
@@ -78,16 +68,6 @@ public class DivideWithoutOperator {
             return quotient;
         }
 
-
-        public static void main(String[] args) {
-            System.out.println(divisionWithoutOperator(5, -2));
-            System.out.println(divisionWithoutOperator(6, 2));
-            System.out.println(divisionWithoutOperator(1, -2));
-            System.out.println(divisionWithoutOperator(8, 3));
-        }
-
-        return quotient;
-    }
 
     public static void main(String[] args) {
         System.out.println(divisionWithoutOperator(5, -2));
