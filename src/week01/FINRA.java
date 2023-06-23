@@ -1,8 +1,8 @@
 package week01;
 
-import java.io.Serializable;
 
 public class FINRA {
+
     /*
      Write a function which prints out the numbers from 1 to 30 but for numbers which are a multiple of 3,
      print "FIN" instead of the number and for numbers which are a multiple of 5, print "RA" instead of the number.
@@ -10,7 +10,7 @@ public class FINRA {
      */
 
     public static void main(String[] args) {
-        int num = 15;
+        int num = 16;
         if (num % 3 == 0 && num % 5 == 0) {
             System.out.println("FINRA");
         } else if (num % 3 == 0) {
@@ -43,8 +43,10 @@ public class FINRA {
             String result = (i % 3 == 0 && i % 5 == 0) ? "FINRA" : (i % 3 == 0) ? "FIN" : (i % 5 == 0) ? "RA" : "" + i;
             System.out.println(result);
         }
-
-
     }
-
 }
+
+
+
+
+
