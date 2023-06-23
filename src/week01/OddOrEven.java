@@ -9,10 +9,6 @@ public class OddOrEven {
      identify(5); ->"Odd"
      identify(6); ->"Even"
      */
-
-
-
-
     public static String oddEven(int num) {
         String odd = "Odd";
         String even = "Even";
@@ -44,14 +40,16 @@ public class OddOrEven {
 
     }
 
-    public static void identify(int number){
+    public static void identify(int number) {
 
-        if(number % 2 == 0){
+        if (number % 2 == 0) {
             System.out.println("Even");
-        }else{
+        } else {
             System.out.println("Odd");
         }
 
-
+    }
 
 }
+
+
