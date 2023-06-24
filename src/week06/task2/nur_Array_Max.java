@@ -15,6 +15,12 @@ public class nur_Array_Max {
         System.out.println(num(arr));
 
     }
+
+    /**
+     * finds max value from array
+     * @param arr
+     * @return int
+     */
     public static int num(int[] arr){
 
         int max=0;
