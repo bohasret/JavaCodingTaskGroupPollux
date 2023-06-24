@@ -5,6 +5,17 @@ import java.util.Collections;
 public class nur_SumOfDigits {
     public static void main(String[] args) {
         String str= "12 java 5 apple 3";
+        System.out.println(sumOfDigit(str));
+
+    }
+
+    /**
+     *  returns the sum of the digits in a String
+     * @param str
+     * @return int
+     */
+    public static int sumOfDigit(String str){
+
         String[] words= str.split(" "); //12,java,5,apple,3
         int result=0;
 
@@ -19,7 +30,7 @@ public class nur_SumOfDigits {
             }
 
         }
-        System.out.println(result);
+        return result;
 
     }
 
