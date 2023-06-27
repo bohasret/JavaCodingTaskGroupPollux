@@ -1,4 +1,4 @@
-package javaCodingTasks.Afshin.Week05.Task1;
+package javaCodingTasks.Afshin.week05.Task1;
 public class Afshin {
     public static void main(String[] args) {
         String word = "AAABBBCCCDEF";

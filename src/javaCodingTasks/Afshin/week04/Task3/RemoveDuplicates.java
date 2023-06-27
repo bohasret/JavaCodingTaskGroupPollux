@@ -1,4 +1,4 @@
-package javaCodingTasks.Afshin.Week04.Task3;
+package javaCodingTasks.Afshin.week04.Task3;
 
 public class RemoveDuplicates {
     public static void main(String[] args) {
