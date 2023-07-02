@@ -20,7 +20,7 @@ public class nur_SumOfDigits {
         int result=0;
 
         for (int i = 0; i < words.length; i++) {
-            String updated=words[i]; //12
+            String updated=words[i]; //12java
             for(int j=0 ; j< updated.length(); j++){
                 char ch= updated.charAt(j);
                 if(Character.isDigit(ch)) { //but what if it was 12app instead of 12, then if we skip the look at the end we can only get 1 , not 2
