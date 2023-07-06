@@ -11,7 +11,7 @@ public class Zack {
             arr = sortAscending(arr); ==>{ 7, 8, 9, 10};
      */
     public static void main(String[] args) {
-        int[] arr = {10, 9, 8, 7};
+        int[] arr = {10, 9, 8, 7, 1, 33, 2, 4};
         System.out.println("sortingArrayAsc_1(arr) = " + Arrays.toString( sortingArrayAsc_1(arr)));
         System.out.println("sortingArrayAsc_2(arr) = " + Arrays.toString( sortingArrayAsc_2(arr)));
     }
