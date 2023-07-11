@@ -1,4 +1,4 @@
-package javaCodingTasks.Afshin.week07.Taks1;
+package javaCodingTasks.Afshin.week07.Task1;
 
 public class Afshin {
     public static void main(String[] args) {
