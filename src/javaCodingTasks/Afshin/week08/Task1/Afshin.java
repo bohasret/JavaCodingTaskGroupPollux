@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Afshin {
     public static void main(String[] args) {
-        int number = 6;
+        int number = 4;
         System.out.println(Arrays.toString(arrayGenerator(number)));
     }
 
