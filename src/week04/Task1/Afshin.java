@@ -1,8 +1,8 @@
 package week04.Task1;
 
-public class FrequencyOfCharacters {
+public class Afshin {
     public static void main(String[] args) {
-        FrequencyOfCharacters.frequencyOfChars("AAABBCDD");
+        Afshin.frequencyOfChars("AAABBCDD");
     }
 
     public static void frequencyOfChars(String str) {

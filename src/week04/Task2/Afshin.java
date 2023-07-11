@@ -2,9 +2,9 @@ package week04.Task2;
 
 import java.util.*;
 
-public class SameLetters {
+public class Afshin {
     public static void main(String[] args) {
-        System.out.println("Are they anagrams of each other?: " + SameLetters.sameLetters("abc", "abb"));
+        System.out.println("Are they anagrams of each other?: " + Afshin.sameLetters("abc", "abb"));
     }
     public static Boolean sameLetters(String arnold, String clone) {
         List<Character> arrayArnold = new ArrayList<>();

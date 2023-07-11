@@ -1,8 +1,8 @@
 package week04.Task3;
 
-public class RemoveDuplicates {
+public class Afshin {
     public static void main(String[] args) {
-        RemoveDuplicates.removeDup("AAABBBCCC");
+        Afshin.removeDup("AAABBBCCC");
     }
 
     public static void removeDup(String str) {
