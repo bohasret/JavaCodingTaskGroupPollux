@@ -40,7 +40,7 @@ public class Afshin {
         }
         nums[nums.length - 1] = numAdded*(-1);
 
-        return nums;
+        return nums; //
     }*/
     public static int[] arrayGenerator(int number) {
         ArrayList numberSet = new ArrayList(10);
