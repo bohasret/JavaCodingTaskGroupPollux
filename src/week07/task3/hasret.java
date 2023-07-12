@@ -13,7 +13,6 @@ public class hasret {
     //Ex: int[] arr = {10,20,7, 8, 90};
     //arr = sortDecending(arr); ==> {90, 20, 10, 8, 7};
 
-
     public static void main(String[] args) {
 
         int[] arr = {10, 20, 7, 8, 90};
