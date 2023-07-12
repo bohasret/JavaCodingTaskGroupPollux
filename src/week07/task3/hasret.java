@@ -3,9 +3,7 @@ package week07.task3;
 import java.util.Arrays;
 
 public class hasret {
-
-
-    //Bubble sort
+   //Bubble sort
     //(The logic we use for sorting an integer array ascending and descending order)
 
     //Array_SortDescending
